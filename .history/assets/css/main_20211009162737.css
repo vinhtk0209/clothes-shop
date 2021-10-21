@@ -1,0 +1,223 @@
+
+
+#header {
+    min-height: 120px;
+    background-color: #000000;
+    padding: 8px 0px 0px 0px;
+    text-transform: capitalize;
+    
+}
+@media screen and (min-width: 576px) {
+    #header{
+        width: 100%;
+        
+    }
+}
+.header-info{
+   
+    color:#eeeeee;
+    font-weight: 400 ;
+    font-size: 1.4rem;
+    border-bottom:1px solid #363636;
+    margin-bottom: 25px;
+}
+
+.header-menu-list ul.list-menu > li + li{
+    padding-left:40px;
+
+}
+.header-menu-list ul li a.list-name{
+    font-size: 1.4rem;
+    color:#ffffff;
+    font-weight:600 ;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+.header-menu-list ul li a.list-name:hover{
+    color:#e2524a ;
+}
+ul.list-menu li:hover>ul.sub-menu{
+    opacity: 1;
+    visibility: visible;
+    
+}
+ul.sub-menu {
+    z-index: 9999;
+   min-width: 200px;
+   min-height: 133px;
+   padding:18px 0 20px 0;
+   box-sizing: border-box;
+   top:50px;
+   opacity: 0;
+   visibility: hidden;
+   transition: all 0.5s ease-in-out;
+
+}
+
+ul.sub-menu li{
+    padding-left:25px;
+    
+}
+ul.sub-menu li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+ul.sub-menu li a:hover{
+    color:#e2524a ;
+}
+
+/* ======================= END HEADER =======================*/
+
+/* ======================= SLIDER =======================*/
+.slide{
+    /* height:700px; */
+    position: relative;
+    margin-bottom: 70px;
+}
+.card-descr{
+    position: absolute;
+    top:235px;
+    left:340px;
+    max-width:535px;
+    min-height:285px;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.card-descr h4.product-name{
+    font-size: 5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#e2524a;
+}
+/* ======================= END SLIDER =======================*/
+
+/* ======================= SPECIAL OFFER =======================*/
+
+.box-offer{
+    background-color: #f4f4f4;
+    padding:  15px  95px  25px  ;
+    font-size: 1.6rem;
+    color:#434141;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.box-offer:hover{
+    color:#e2524a;
+}
+/* ==================== END SPECIAL OFFER ====================*/
+
+/* ======================= CONTENT =======================*/
+#content{
+    font-family: 'Open Sans', sans-serif;
+    margin-top:85px;
+}
+
+/* ======================= NEW PRODUCT =======================*/
+.list-item__new{
+    flex-basis: 23%;
+    width: 23%;
+    margin-bottom: 35px;
+
+}
+.list-item__new--rate-star span i{
+    color: #ffa500;
+    font-size: 1.4rem;
+}
+.list-item__new--price   {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:#514545;
+}
+.product-name{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color:#514545;
+    transition:all 0.5s ease-in-out;
+}
+.product-name:hover{
+    color:#e2524a;
+}
+.card-descr-img{
+    position: absolute;
+    top:240px;
+    left: 380px;
+    max-width:535px;
+    min-height:285px;
+    font-family: 'Open Sans', sans-serif;
+  
+
+} 
+/* ===================== END NEW PRODUCT =======================*/
+
+
+/* ======================= BEST SELLER =======================*/
+
+                        /* NOTHING IN HERE */
+
+/* ====================== END BEST SELLER ======================*/
+
+
+/* ======================= SHARE TIPS =======================*/
+.list-tip-item{
+    flex-basis: 31%;
+    width:31%;
+}
+.caption--tip_descr{
+    font-size: 1.1rem;
+    color:#313131;
+}
+.caption--tip_name--descr{
+    font-size: 1.6rem;
+    color:#141414;
+}
+.caption--tip_time--descr{
+    font-size: 1.4rem;
+    color:#6c757d;
+}
+.caption--tip_content--descr{
+    font-size: 1.4rem;
+    color:#343434;
+}
+
+a.btn-see-more{
+    padding: 10px 45px;
+    color: #585858 !important; 
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+/* ====================== END SHARE TIPS ======================*/
+
+
+/* ======================= END CONTENT ======================*/
+
+/* ======================= FOOTER ======================*/
+.footer{
+    background-color: #212121;
+    padding:80px 0px 95px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+h4.card-title {
+    font-size: 1.6rem;
+    color:#e2524a;
+}
+.card-body-footer{
+    color:#ffffff;
+    font-size: 1.4rem;
+    font-weight: regular;
+}
+.card-body-footer a{
+    color:#ffffff;
+}
+/* ======================= END FOOTER ======================*/
+
+/* ======================= COPPYRIGHT ======================*/
+#copyright{
+    background-color: #e2524a;
+    padding: 14px 0px;
+}
+
+/* ======================= END COPPYRIGHT ======================*/

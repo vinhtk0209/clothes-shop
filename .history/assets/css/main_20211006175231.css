@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%; 
+    line-height: 1.5;
+    box-sizing: border-box;
+}   
+.container-1160 {
+    width: 1160px;
+    margin:0px auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.mr-95{
+    margin-right:95px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+.outline-none{
+    outline: none!important;
+}
+.fs-14{
+    font-size: 1.4rem;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-30{
+    font-size: 3rem;
+}
+.fs-40{
+    font-size: 4rem;
+}
+.bg-submenu{
+    background-color: #f9f9f9;
+}
+.color-submenu{
+    color: #5c5b5b ;
+}
+.color-p-card-discount{
+    color:#000000;
+}
+.color-p-card-descr{
+    color:#343434;
+}
+.text-button{
+    color:#efefef;
+}
+.text-card-caption{
+    color:#837d7d;
+}
+.fw-regular{
+    font-weight: 400;
+}
+.fw-semibold{
+    font-weight: 600;
+}
+.pd-btn{
+    padding:5px 25px;
+}
+.pd-bottom-70{
+    padding-bottom: 70px;
+}
+.pd-bottom-75{
+    padding-bottom: 75px;
+}
+.bg-btn-slide:hover{
+    background-color: #e2524a!important ;
+}
+.mb-15{
+    margin-bottom:15px;
+}
+.mb-35{
+    margin-bottom: 35px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mt-75{
+    margin-top: 75px;
+}
+
+.fs-48{
+    font-size: 4.8rem;
+}
+.fs-11{
+    font-size: 1.1rem;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.mb-75{
+    margin-bottom: 75px;
+}
+.owl-dots{
+    visibility:hidden;
+    display: none !important;
+}
+.owl-nav button.owl-prev ,
+.owl-nav button.owl-next {
+    margin:0;
+    
+}
+.owl-nav .owl-prev span,
+.owl-nav .owl-next span{
+    font-size: 2.2rem;
+    background-color: #343434;
+    padding: 0px 10px 0px ;
+    color:#d6d6d6;
+
+}
+.owl-nav .owl-prev span:hover,
+.owl-nav .owl-next span:hover{
+    background-color: #e2524a;
+} 
+
+/* =========================== HEADER ===========================*/
+.wrapper{
+    width:100%;
+}
+
+#header {
+    min-height: 120px;
+    background-color: #000000;
+    padding: 8px 0px 0px 0px;
+    text-transform: capitalize;
+    width:100%;
+}
+.header-info{
+   
+    color:#eeeeee;
+    font-weight: 400 ;
+    font-size: 1.4rem;
+    border-bottom:1px solid #363636;
+    margin-bottom: 25px;
+}
+
+.header-menu-list ul.list-menu > li + li{
+    padding-left:40px;
+
+}
+.header-menu-list ul li a.list-name{
+    font-size: 1.4rem;
+    color:#ffffff;
+    font-weight:600 ;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+.header-menu-list ul li a.list-name:hover{
+    color:#e2524a ;
+}
+ul.list-menu li:hover>ul.sub-menu{
+    opacity: 1;
+    visibility: visible;
+    
+}
+ul.sub-menu {
+    z-index: 9999;
+   min-width: 200px;
+   min-height: 133px;
+   padding:18px 0 20px 0;
+   box-sizing: border-box;
+   top:50px;
+   opacity: 0;
+   visibility: hidden;
+   transition: all 0.5s ease-in-out;
+
+}
+
+ul.sub-menu li{
+    padding-left:25px;
+    
+}
+ul.sub-menu li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+ul.sub-menu li a:hover{
+    color:#e2524a ;
+}
+
+/* ======================= END HEADER =======================*/
+
+/* ======================= SLIDER =======================*/
+.slide{
+    /* height:700px; */
+    position: relative;
+    margin-bottom: 70px;
+}
+.card-descr{
+    position: absolute;
+    top:235px;
+    left:340px;
+    max-width:535px;
+    min-height:285px;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.card-descr h4.product-name{
+    font-size: 5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#e2524a;
+}
+/* ======================= END SLIDER =======================*/
+
+/* ======================= SPECIAL OFFER =======================*/
+
+.box-offer{
+    background-color: #f4f4f4;
+    padding:  15px  95px  25px  ;
+    font-size: 1.6rem;
+    color:#434141;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.box-offer:hover{
+    color:#e2524a;
+}
+/* ==================== END SPECIAL OFFER ====================*/
+
+/* ======================= CONTENT =======================*/
+#content{
+    font-family: 'Open Sans', sans-serif;
+    margin-top:85px;
+}
+
+
+
+/* ======================= NEW PRODUCT =======================*/
+.list-item__new{
+    flex-basis: 23%;
+    width: 23%;
+    margin-bottom: 35px;
+
+}
+.list-item__new--rate-star span i{
+    color: #ffa500;
+    font-size: 1.4rem;
+}
+.list-item__new--price   {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:#514545;
+}
+.product-name{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color:#514545;
+    transition:all 0.5s ease-in-out;
+}
+.product-name:hover{
+    color:#e2524a;
+}
+.card-descr-img{
+    position: absolute;
+    top:240px;
+    left: 380px;
+    max-width:535px;
+    min-height:285px;
+    font-family: 'Open Sans', sans-serif;
+  
+
+} 
+/* ===================== END NEW PRODUCT =======================*/
+
+
+/* ======================= BEST SELLER =======================*/
+
+                        /* NOTHING IN HERE */
+
+/* ====================== END BEST SELLER ======================*/
+
+
+/* ======================= SHARE TIPS =======================*/
+.list-tip-item{
+    flex-basis: 31%;
+    width:31%;
+}
+.caption--tip_descr{
+    font-size: 1.1rem;
+    color:#313131;
+}
+.caption--tip_name--descr{
+    font-size: 1.6rem;
+    color:#141414;
+}
+.caption--tip_time--descr{
+    font-size: 1.4rem;
+    color:#6c757d;
+}
+.caption--tip_content--descr{
+    font-size: 1.4rem;
+    color:#343434;
+}
+
+a.btn-see-more{
+    padding: 10px 45px;
+    color: #585858 !important; 
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+/* ====================== END SHARE TIPS ======================*/
+
+
+/* ======================= END CONTENT ======================*/
+
+/* ======================= FOOTER ======================*/
+.footer{
+    background-color: #212121;
+    min-height: 320px;
+    padding:80px 0px 95 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.card__contact-title{
+    font-size: 1.6rem;
+    color:
+}
+
+/* ======================= END FOOTER ======================*/

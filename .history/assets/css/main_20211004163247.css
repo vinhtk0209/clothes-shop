@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%; 
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.container-1160 {
+    width: 1160px;
+    margin:0px auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.mr-95{
+    margin-right:95px;
+}
+.outline-none{
+    outline: none!important;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.bg-submenu{
+    background-color: #f9f9f9;
+}
+.color-submenu{
+    color: #5c5b5b ;
+}
+/* =========================== HEADER ===========================*/
+#header {
+    min-height: 120px;
+    background-color: #000000;
+    padding: 8px 0px 0px 0px;
+    text-transform: capitalize;
+}
+.header-info{
+   
+    color:#eeeeee;
+    font-weight: 400 ;
+    font-size: 1.4rem;
+    border-bottom:1px solid #363636;
+    margin-bottom: 25px;
+}
+
+.header-menu-list ul.list-menu > li + li{
+    padding-left:40px;
+
+}
+.header-menu-list ul li a.list-name{
+    font-size: 1.4rem;
+    color:#ffffff;
+    font-weight:600 ;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+.header-menu-list ul li a.list-name:hover{
+    color:#e2524a ;
+}
+ul.list-menu li:hover>ul.sub-menu{
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999;
+}
+ul.sub-menu {
+   /* padding:0px; */
+   min-width: 200px;
+   min-height: 133px;
+   padding:18px 0 20px 0;
+   box-sizing: border-box;
+   top:50px;
+   opacity: 0;
+   visibility: hidden;
+   transition: all 0.5s ease-in-out;
+
+}
+
+ul.sub-menu li{
+    padding-left:25px;
+    /* chinh lai padding  */
+}
+ul.sub-menu li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+ul.sub-menu li a:hover{
+    color:#e2524a ;
+}
+/* ======================= END HEADER =======================*/
+
+/* ======================= SLIDER =======================*/
+.slide{
+    height:700px;
+    position: relative;
+}
+.card-descr{
+    position: absolute;
+    top:235px;
+    left:340px;
+    width:
+}

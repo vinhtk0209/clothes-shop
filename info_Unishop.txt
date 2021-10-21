@@ -1,0 +1,67 @@
+Semi-bold 600
+Bold 700
+Regular 400
+Light 300
+font-family:Open sans
+font-size : 62.5%;
+line-height:1.5;
+
+
+Màu sắc 
+- Header : min-height:120px;
+	   background-color:#000000;
+	   padding: 8px 0px 20px 0px;
+- Header-top:
+	padding-bottom :  10px;
+	color:#eeeeee;
+	font-weight: Regular ;
+	font-size: 14px;//1.4em
+	border:1px solid #363636;
+- Header-banner: 
+	background:#000000;
+	text:#ffffff ;
+	font-weight:semi bold ;
+	font-size: 14px;
+	font-weight: semibold;	
+	text-tranform:capitalize;
+	
+
+	Header-text :
+			padding:-right:not first-child:20px;
+
+
+
+	hover:#e2524a 
+
+	font-family:roboto condensed ;
+	font-weight:regular;
+	color:#5c5b5b;
+	font-size:14px;	
+	color khi hover :#e2524a;
+
+
+
+
+
+d-flex justify-content-between align-items-center
+
+
+<ul clas="sub-menu list-unstyled ">
+                    <li class="list-item">
+                      <a href="" class="text-decoration-none ">
+                        túi xách tay nữ
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="text-decoration-none ">
+                        túi đeo chéo nữ
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="text-decoration-none"> túi bản to </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="text-decoration-none"> túi đeo vai </a>
+                    </li>
+                  </ul>
+
